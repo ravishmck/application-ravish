@@ -102,7 +102,7 @@ jobs:
           cosign verify-attestation \
             --type spdx \
             --certificate-oidc-issuer https://token.actions.githubusercontent.com \
-            --certificate-identity-regexp "https://github.com/UnpredictablePrashant/GitOpsDemoA/.*" \
+            --certificate-identity-regexp "https://github.com/ravishmck/application-ravish/.*" \
             ${{ env.IMAGE }}@${{ steps.build.outputs.digest }}
 
 
