@@ -22,7 +22,8 @@ jobs:
       id-token: write   # for keyless signing (cosign OIDC)
       packages: write
       pull-requests: write
-      security-events: write 
+      security-events: write
+      actions: read     # required for upload-sarif to access workflow run info 
     steps:
       - name: Checkout app repo
         uses: actions/checkout@v4
