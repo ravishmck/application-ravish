@@ -10,7 +10,7 @@ env:
   REGISTRY: docker.io
   DOCKERHUB_NAMESPACE: ${{ secrets.DOCKERHUB_USERNAME }}
   IMAGE: docker.io/${{ secrets.DOCKERHUB_USERNAME }}/gitops-demo-app
-  DEPLOY_REPO: UnpredictablePrashant/GitOpsDemoB
+  DEPLOY_REPO: ravishmck/application-ravish
   DEPLOY_BRANCH: main
   APP_PATH: app
 
